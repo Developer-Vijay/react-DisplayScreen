@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+:root{
+    --red:#D01C28;
+    --gray:#2e2e2e;
+}
+nav{
+    justify-content: space-between;
+    max-width:1280px;    
+    margin:0 auto;
+    margin-top: 12px;
+    height: 72px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+li {
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+
+button{
+    all: unset;
+    padding :6px 16px;
+    background: var(--red);
+    height: 30px;
+    gap: 10px;
+    border-radius: 1px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.logo {
+    display: flex; 
+    justify-content: space-between;
+}
+

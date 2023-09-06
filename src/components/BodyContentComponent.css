@@ -1,0 +1,59 @@
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.body-content{
+    display: flex;
+    align-items: center;
+    height: calc(80vh);
+
+}
+
+.body-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.body-text-content h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+
+.body-text-content p {
+    font-weight: 600;
+    color: var(--gray);
+    width: 400px;
+}
+
+.body-btn{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    
+}
+
+.body-btn button{
+    font-size: 24px;
+}
+
+.secondary-btn{
+    background-color: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+
+.shopping p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.brand-icons{
+    display: flex;
+    gap:16px;
+}
+
+
+
